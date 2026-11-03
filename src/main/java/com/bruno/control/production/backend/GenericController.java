@@ -12,7 +12,7 @@ public class GenericController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "Hola , Franz!";
     }
 
     @GetMapping("/generic-response")
